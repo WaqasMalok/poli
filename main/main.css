@@ -1,0 +1,124 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+*::-moz-selection {
+  color: #0dcaf0;
+  background-color: #000;
+}
+*::selection {
+  color: #0dcaf0;
+  background-color: #000;
+}
+
+img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.mk-heading-1 {
+  font-size: clamp(1.2rem, 4vw, 3rem);
+}
+.mk-heading-2 {
+  font-size: clamp(1.1rem, 3.5vw, 2.8rem);
+}
+.mk-heading-3 {
+  font-size: clamp(1rem, 3vw, 2.5rem);
+}
+
+.mk-desc-1 {
+  font-size: clamp(1rem, 2vw, 1.8rem);
+}
+.mk-desc-2 {
+  font-size: clamp(0.8rem, 2vw, 1.5rem);
+}
+.mk-desc-3 {
+  font-size: clamp(0.8rem, 2vw, 1rem);
+}
+.mk-desc-4 {
+  font-size: clamp(0.7rem, 2vw, 0.8rem);
+}
+
+.container {
+  max-width: 1800px;
+}
+
+.mk-pages {
+  padding: 50px 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+}
+@media (max-width: 991px) {
+  .mk-pages {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 575px) {
+  .mk-pages {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+.mk-pages-card {
+  text-decoration: none;
+}
+.mk-pages-card-img {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.mk-total-pages {
+  padding-block: clamp(40px, 4vw, 60px);
+  background-color: #e7e7e7;
+}
+
+.mk-responsive-sec {
+  padding-inline: 20px;
+  padding-block: clamp(50px, 9vw, 150px);
+  background-color: #f2f2f2;
+}
+
+.mk-pages-report {
+  padding-block: clamp(40px, 6vw, 130px);
+}
+.mk-pages-report img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+footer {
+  padding-top: 70px;
+  padding-bottom: 40px;
+}
+footer .mk-button {
+  border: 2px solid #fff;
+  padding-inline: clamp(20px, 3vw, 40px);
+  padding-block: clamp(8px, 3vw, 20px);
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  position: relative;
+  isolation: isolate;
+  z-index: 2;
+}
+footer .mk-button::after {
+  content: "";
+  background-color: #0dcaf0;
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  top: 0%;
+  right: 0%;
+  transition: all 0.8s ease-in-out;
+  z-index: -1;
+}
+footer .mk-button:hover {
+  color: #000;
+}
+footer .mk-button:hover::after {
+  width: 100%;
+}/*# sourceMappingURL=main.css.map */

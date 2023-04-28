@@ -1,0 +1,25 @@
+// /[ VARIABLES CSS]/////
+@import "variable";
+// text color
+.mk {
+  &-text {
+    &-white {
+      color: $t-white;
+    }
+    &-dark {
+      color: $t-dark;
+    }
+    &-green {
+      color: $t-green;
+    }
+  }
+}
+// background color
+.mk-bg {
+  &-green {
+    background-color: $green;
+  }
+  &-white {
+    background-color: $white;
+  }
+}

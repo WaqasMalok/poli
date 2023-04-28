@@ -1,0 +1,22 @@
+.mk-heading-1 {
+  font-size: clamp(32px, 5vw, 65px);
+}
+.mk-heading-2 {
+  font-size: clamp(30px, 5vw, 54px);
+}
+.mk-heading-3 {
+  font-size: clamp(22px, 3vw, 36px);
+}
+
+.mk-desc-1 {
+  font-size: clamp(1rem, 2vw, 1.3rem);
+}
+.mk-desc-2 {
+  font-size: clamp(0.9rem, 2vw, 1.1rem);
+}
+.mk-desc-3 {
+  font-size: clamp(0.8rem, 2vw, 1rem);
+}
+.mk-desc-4 {
+  font-size: clamp(0.7rem, 2vw, 0.8rem);
+}/*# sourceMappingURL=typography.css.map */

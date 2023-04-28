@@ -1,0 +1,16 @@
+.mk-text-white {
+  color: #fff;
+}
+.mk-text-dark {
+  color: #333333;
+}
+.mk-text-green {
+  color: #88c417;
+}
+
+.mk-bg-green {
+  background-color: #88c417;
+}
+.mk-bg-white {
+  background-color: #fff;
+}/*# sourceMappingURL=color.css.map */

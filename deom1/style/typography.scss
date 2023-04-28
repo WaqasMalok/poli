@@ -1,0 +1,33 @@
+// /[ VARIABLES CSS]/////
+@import "variable";
+// HEADING
+.mk {
+  &-heading {
+    &-1 {
+      font-size: $mk-heading-1;
+    }
+    &-2 {
+      font-size: $mk-heading-2;
+    }
+    &-3 {
+      font-size: $mk-heading-3;
+    }
+  }
+}
+// DESCRIPTION
+.mk {
+  &-desc {
+    &-1 {
+      font-size: $mk-desc-1;
+    }
+    &-2 {
+      font-size: $mk-desc-2;
+    }
+    &-3 {
+      font-size: $mk-desc-3;
+    }
+    &-4 {
+      font-size: $mk-desc-4;
+    }
+  }
+}
